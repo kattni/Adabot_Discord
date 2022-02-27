@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+disnake = "*"
+async-rediscache = "*"
+sentry-sdk = "*"
+coloredlogs = "*"
+pyyaml = "*"
+arrow = "*"
+statsd = "*"
+aioredis = "<2"
+redis = "*"
+fakeredis = "*"
+deepdiff = "*"
+frontmatter = "*"
+beautifulsoup4 = "*"
+markdownify = "*"
+aiodns = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
